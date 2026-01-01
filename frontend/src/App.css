@@ -1,0 +1,20 @@
+body {
+  background-color: #fafafa;
+  font-family: "Poppins", sans-serif;
+}
+
+.home .navbar {
+  border-bottom: 2px solid #eaeaea;
+}
+
+.home input {
+  border-radius: 30px;
+  padding: 8px 20px;
+  border: 1px solid #ccc;
+}
+
+.home input:focus {
+  outline: none;
+  border-color: #7B2CBF;
+  box-shadow: 0 0 5px rgba(123, 44, 191, 0.4);
+}
