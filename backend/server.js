@@ -7,6 +7,11 @@ import http from "http";
 import { Server } from "socket.io";
 import morgan from "morgan";
 import connectDB from "./config/db.js";
+import dotenv from "dotenv";
+dotenv.config();
+
+console.log(process.env.OPENAI_API_KEY); // works ONLY in backend
+
 
 // 🧩 Import route modules
 import foodRoutes from "./routes/foodRoutes.js";

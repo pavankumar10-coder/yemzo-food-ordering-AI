@@ -1,7 +1,7 @@
-import { defineconfig } from "vite";
+import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
-export default defineconfig({
-    base: "/yemzo-food-ordering-AI/",
-    plugins:[react(),]
+export default defineConfig({
+  base: "/yemzo-food-ordering-AI/",
+  plugins: [react()],
 });
